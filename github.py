@@ -38,7 +38,7 @@ def get_patch_lines(user, repo, commit_sha):
 
     return 
 
-if __name__ == "__main__":
+def github_search():
     user = input("Enter the GitHub username: ")
     
     repos = get_repos(user)
