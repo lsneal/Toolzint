@@ -1,3 +1,6 @@
+import sys 
+sys.path.append('src')
+
 import github
 import location
 import emailpwn
@@ -34,7 +37,8 @@ def display_menu():
     elif choice == '8':
         print("You chose Option 8")
     else:
-        print("Invalid option. Try again.")
+        print("Bye.")
+        return False
     
     return True
 
